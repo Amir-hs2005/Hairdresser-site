@@ -427,3 +427,66 @@ hr{
 
 
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+
+  #banner{
+      height: auto;
+  }  
+  
+  #banner .banner-text h1{
+      font-size: 110px;
+  }
+  
+  #sideNav{
+      height: auto;
+  }
+  
+  .service-desc{
+      width: 100%;
+      height: 100%;
+      
+  }
+  
+  .service-desc h1{
+      top: 0;
+  }
+  
+  .service-desc p{
+      width: 90%;
+      height: 30px;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  .single-service:hover .service-desc{
+      top: 15%;
+  }
+  
+  .footer-row{
+      justify-content: center;
+  }
+  
+  .footer-left{
+      flex-basis: 45%;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+  
+  .footer-right{
+      flex-basis: 45%;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: right;
+  }
+  
+  .footer-right p{
+      margin: 10px auto;
+      text-align: center;
+  }
+  
+  .footer-right h1{
+      text-align: center;
+  }
+}
